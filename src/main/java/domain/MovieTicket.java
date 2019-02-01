@@ -20,7 +20,7 @@ public class MovieTicket
         this.seatNr = seatNr;
     }
 
-    public boolean getisPremiumTicket()
+    public boolean getIsPremiumTicket()
     {
         return isPremiumTicket;
     }

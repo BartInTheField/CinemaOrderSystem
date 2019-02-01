@@ -45,6 +45,7 @@ public class Order {
         return isTheSame;
     }
 
+    // CC 1
     public double calculatePrice() {
         double price = calculatePriceForAllTickets();
 
@@ -66,7 +67,7 @@ public class Order {
         double price = currentPrice;
 
         for (MovieTicket ticket : tickets ){
-            if(ticket.getisPremiumTicket()) {
+            if(ticket.getIsPremiumTicket()) {
                 if(isStudentOrder) {
                     price = price + (tickets.size() * 2);
                 } else {
